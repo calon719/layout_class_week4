@@ -1,0 +1,8 @@
+footer {
+  .sns img {
+    width: 24px;
+    @screen lg {
+      width: 48px;
+    }
+  }
+}

@@ -1,0 +1,68 @@
+.container {
+  max-width: 1140px;
+  @apply mx-auto h-full;
+}
+
+.row {
+  @apply flex flex-wrap -mx-4 max-w-full;
+  > * {
+    @apply w-full max-w-full px-4;
+  }
+}
+.col {
+  flex: 1 0 0;
+}
+.col-3 {
+  @apply w-3/12;
+  flex: 0 0 auto;
+}
+.col-5 {
+  @apply w-5/12;
+  flex: 0 0 auto;
+}
+.col-6 {
+  @apply w-6/12;
+  flex: 0 0 auto;
+}
+.col-12 {
+  @apply w-full;
+  flex: 0 0 auto;
+}
+
+@screen md {
+  .md\:col-3 {
+    @apply w-3/12;
+    flex: 0 0 auto;
+  }
+  .md\:col-5 {
+    @apply w-5/12;
+    flex: 0 0 auto;
+  }
+  .md\:col-6 {
+    @apply w-6/12;
+    flex: 0 0 auto;
+  }
+  .md\:col-12 {
+    @apply w-full;
+    flex: 0 0 auto;
+  }
+}
+
+@screen lg {
+  .lg\:col-3 {
+    @apply w-3/12;
+    flex: 0 0 auto;
+  }
+  .lg\:col-5 {
+    @apply w-5/12;
+    flex: 0 0 auto;
+  }
+  .lg\:col-6 {
+    @apply w-6/12;
+    flex: 0 0 auto;
+  }
+  .lg\:col-12 {
+    @apply w-full;
+    flex: 0 0 auto;
+  }
+}
