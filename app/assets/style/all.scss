@@ -10,9 +10,12 @@
   @import "./layout/footer";
   @import "./page/index";
 }
+
 @layer components {
   @import "./components/card";
+  @import "./components/button";
 }
+
 @layer utilities {
   @import "./utilities/position";
 }

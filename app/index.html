@@ -403,47 +403,53 @@ current: index
       <p class="mb-5">
         我們相當重視您的意見，若您有任何疑問，可先參考「常見問題」，若仍有任何問題，請填妥以下資料，我們會在近期與您聯繫。
       </p>
-      <form action="index.html">
-        <label for="personName">姓名</label
-        ><input
-          type="text"
-          class="w-full mt-1 mb-2 border px-3 py-2"
-          id="personName"
-          placeholder="陳小明"
-        /><label for="phone">電話</label
-        ><input
-          type="tel"
-          class="w-full mt-1 mb-2 border px-3 py-2"
-          id="phone"
-          placeholder="0912-345-678"
-        /><label for="email">電子郵件</label
-        ><input
-          type="email"
-          class="w-full mt-1 mb-2 border px-3 py-2"
-          id="email"
-          placeholder="example@email.com"
-        /><label for="commend">意見反應</label
-        ><textarea
-          name="commend"
-          id="commend"
-          rows="5"
-          placeholder="請輸入您的意見"
-          class="mt-1 mb-2 border w-full px-3 py-2"
-        ></textarea>
-        <div class="flex">
-          <input
-            type="checkbox"
-            name="agreement"
-            id="agreement"
-            class="h-4 w-4 mt-1"
-          />
-          <div class="ml-1">
-            <label for="agreement"
-              >我同意隱私權政策，並同意依隱私權政策中所述的方式處理自己的資料。</label
-            >
+      <form action="index.html" class="text-center">
+        <fieldset class="mb-6 lg:mb-9 text-left">
+          <label for="personName">姓名</label
+          ><input
+            type="text"
+            class="w-full mt-1 mb-2 border px-3 py-2"
+            id="personName"
+            placeholder="陳小明"
+          /><label for="phone">電話</label
+          ><input
+            type="tel"
+            class="w-full mt-1 mb-2 border px-3 py-2"
+            id="phone"
+            placeholder="0912-345-678"
+          /><label for="email">電子郵件</label
+          ><input
+            type="email"
+            class="w-full mt-1 mb-2 border px-3 py-2"
+            id="email"
+            placeholder="example@email.com"
+          /><label for="commend">意見反應</label
+          ><textarea
+            name="commend"
+            id="commend"
+            rows="5"
+            placeholder="請輸入您的意見"
+            class="mt-1 mb-2 border w-full px-3 py-2"
+          ></textarea>
+          <div class="flex">
+            <input
+              type="checkbox"
+              name="agreement"
+              id="agreement"
+              class="h-4 w-4 mt-1"
+            />
+            <div class="ml-1">
+              <label for="agreement"
+                >我同意隱私權政策，並同意依隱私權政策中所述的方式處理自己的資料。</label
+              >
+            </div>
           </div>
-          <input type="submit" value="" class="btn btn-danger" />
-        </div>
+        </fieldset>
+        <input
+          type="submit"
+          value="確認送出"
+          class="btn btn-danger rounded-none px-14 md:px-20 lg:px-36"
+        />
       </form>
     </div>
   </section>
