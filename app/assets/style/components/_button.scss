@@ -5,3 +5,6 @@
 .btn-danger {
   @apply bg-danger text-white #{!important};
 }
+.btn-dark {
+  @apply bg-dark text-white #{!important};
+}

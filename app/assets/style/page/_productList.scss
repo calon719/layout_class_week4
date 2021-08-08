@@ -1,0 +1,24 @@
+.productList {
+  .banner {
+    height: 148px;
+    @screen md {
+      height: 340px;
+    }
+    .banner-1 {
+      @include bg-fuild;
+      background-image: url("./../images/banner-1.png");
+    }
+    .banner-2 {
+      @apply bg-top bg-cover bg-no-repeat;
+      background-image: url("./../images/banner-2.png");
+    }
+  }
+  .colorBox {
+    height: 16px;
+    width: 16px;
+    @screen sm {
+      height: 24px;
+      width: 24px;
+    }
+  }
+}

@@ -3,19 +3,23 @@
 @tailwind utilities;
 
 @layer base {
-  @import "./base/mixin";
-  @import "./base/base";
-  @import "./layout/grid";
-  @import "./layout/header";
-  @import "./layout/footer";
-  @import "./page/index";
+	@import "./base/mixin";
+	@import "./base/base";
+	@import "./layout/grid";
+	@import "./layout/header";
+	@import "./layout/footer";
+	@import "./page/index";
+	@import "./page/productList";
 }
 
 @layer components {
-  @import "./components/card";
-  @import "./components/button";
+	@import "./components/card";
+	@import "./components/button";
+	@import "./components/listGroup";
+	@import "./components/pagination";
+	@import "./components/breadcrumb";
 }
 
 @layer utilities {
-  @import "./utilities/position";
+	@import "./utilities/position";
 }

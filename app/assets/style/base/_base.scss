@@ -6,6 +6,8 @@ body {
 img {
   @apply align-middle;
 }
-a {
-  @apply hover:underline;
+
+input[type="checkbox"],
+label {
+  @apply cursor-pointer;
 }
